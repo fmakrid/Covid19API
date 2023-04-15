@@ -9,7 +9,7 @@ require("dotenv").config();
 // to extract GET/POST requests
 app.use(express.urlencoded({ extended: false }));
 
-const hostname = "localhost";
+const hostname = "207.154.212.148";
 const port = 8080;
 
 const connection = mysql.createConnection(process.env.DATABASE_URL)
